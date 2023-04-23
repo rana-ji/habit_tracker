@@ -11,10 +11,10 @@ Features :-
 Installation :-
 
     Clone the repository:
-        "git clone https://github.com/your-username/habit-tracker-nodejs.git"
+        "git clone https://github.com/rana-ji/habit_tracker.git"
 
     Navigate to the project directory:
-        "cd habit-tracker-nodejs"
+        "cd habit_tracker"
 
     Install the dependencies:
         "npm install"
