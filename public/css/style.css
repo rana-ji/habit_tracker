@@ -1,0 +1,135 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.habit_form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+form button {
+  width: fit-content;
+  background-color: #1abc9c;
+  margin-left: 5%;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 5%;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+form input {
+  width: 50%;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border: 1px solid #1abc9c;
+  border-radius: 22px;
+}
+
+.habit_list {
+  margin-top: 2%;
+  display: flex;
+  width: 100%;
+}
+
+.habit_list > ul {
+  list-style: none;
+  width: 100%;
+}
+.habit_list ul li {
+  display: flex;
+  justify-content: space-around;
+}
+.habit_list ul li a {
+  color: #fff;
+  background-color: #1abc9c;
+  border: 1px solid;
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+.delete_button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 0;
+}
+
+/* page habit */
+
+.back_button {
+  background-color: #000;
+  color: #fff !important;
+  padding: 5px 15px;
+  text-decoration: none;
+  width: fit-content;
+}
+.calander_table {
+  width: 100%;
+  text-align: center;
+}
+.calander_table thead {
+  background-color: #000;
+  color: #fff;
+}
+.calander_table thead tr td {
+  padding: 10px;
+}
+.calander_table,
+.calander_table tr,
+.calander_table tr td {
+  border: 1px solid;
+}
+.today {
+  background-color: #1abc9c;
+}
+.update_button {
+  background-color: #1abc9c;
+  margin: 10px;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border: 2px solid #707070;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked {
+  background-color: #707070;
+  border: 2px solid #707070;
+}
+
+input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #707070;
+}
+
+input[type="radio"] + label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+
+input[type="radio"] + label:hover {
+  cursor: pointer;
+}
